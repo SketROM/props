@@ -1,0 +1,98 @@
+# ============================================
+#   SketROM Advanced Build Properties
+#   Desenvolvido por CHAGAS LLC / FERNANDA LLC
+#   Versão: 2025.11.10
+#   Base: Android Atual
+# ============================================
+
+# ---------- IDENTIFICAÇÃO GERAL ----------
+ro.build.id=SKETROM_ADV_2025
+ro.build.display.id=SketROM v2025 Ultimate Edition
+ro.build.version.incremental=2025.11.10
+ro.build.version.release=14
+ro.build.version.sdk=34
+ro.build.date=Mon Nov 10 19:30:00 UTC 2025
+ro.build.type=user
+ro.build.user=chagas
+ro.build.host=fernanda-studio
+ro.product.brand=CHAGAS
+ro.product.manufacturer=CHAGAS LLC
+ro.product.model=SketROM Pro
+ro.product.device=sket_device
+ro.product.name=SketROM_2025
+ro.product.board=sket_mainboard
+
+# ---------- LOCALIZAÇÃO ----------
+persist.sys.language=pt
+persist.sys.country=BR
+ro.product.locale=pt-BR
+ro.product.locale.language=pt
+ro.product.locale.region=BR
+
+# ---------- INTERFACE VISUAL ----------
+persist.sys.ui.theme=dark
+ro.bootanimation.zip=bootanimation_sketrom.zip
+persist.sys.theme.color.primary=#008CFF
+persist.sys.theme.color.accent=#00E0FF
+persist.sys.theme.iconshape=rounded
+ro.surface_flinger.supports_background_blur=1
+ro.surface_flinger.has_wide_color_display=true
+debug.hwui.renderer=skiagl
+debug.hwui.enabled=1
+debug.hwui.force_dark=1
+
+# ---------- PERFORMANCE ----------
+ro.config.performance_mode=true
+ro.config.low_ram=false
+dalvik.vm.heapsize=768m
+dalvik.vm.heapgrowthlimit=384m
+persist.sys.purgeable_assets=1
+persist.sys.use_16bpp_alpha=1
+persist.sys.render_engine=gpu
+persist.sys.hwui.enable_vsync=1
+persist.sys.force_high_perf=1
+
+# ---------- SISTEMA ----------
+ro.system.build.version=SketROM_1.5_Pro
+ro.system.ota.version=2025.11.10
+ro.build.characteristics=default
+ro.config.ringtone=SketROM_Tune.ogg
+ro.config.notification_sound=SketROM_Notify.ogg
+
+# ---------- FUNÇÕES EXTRAS ----------
+persist.sketrom.mode=ultimate
+persist.sketrom.performance=boost
+persist.sketrom.power_saver=false
+persist.sketrom.interface.modern_ui=true
+persist.sketrom.animations.speed=0.7
+persist.sketrom.custom_effects=true
+persist.sketrom.wallpaper=system/etc/wallpapers/sket_default.jpg
+
+# ---------- SEGURANÇA ----------
+ro.secure=1
+ro.debuggable=0
+persist.sys.root_access=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+
+# ---------- REDE ----------
+ro.telephony.default_network=9
+wifi.interface=wlan0
+ro.config.hw_fast_dormancy=1
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.delack.default=1
+
+# ---------- IDENTIDADE SKETROM ----------
+ro.sketrom.name=SketROM
+ro.sketrom.version=2025.11.10-Pro
+ro.sketrom.edition=Ultimate Edition
+ro.sketrom.developer=CHAGAS LLC / FERNANDA LLC
+ro.sketrom.base=Android Atual
+ro.sketrom.tagline="O poder do código está em suas mãos."
+ro.sketrom.signature=CHG-FRN-2025
+ro.sketrom.engine=SketEngineX
+ro.sketrom.features=UIBoost, PowerCore, AnimFX, RenderLite
+
+# ---------- FINAL ----------
+# SketROM – onde o sistema encontra a criatividade
+# ============================================
