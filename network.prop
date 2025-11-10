@@ -1,0 +1,83 @@
+# ============================================
+#   SketROM Network Configuration
+#   Desenvolvido por CHAGAS LLC / FERNANDA LLC
+#   Versão: 2025.11.10
+# ============================================
+
+# ---------- IDENTIFICAÇÃO ----------
+net.sketrom.version=1.0
+net.sketrom.developer=CHAGAS LLC / FERNANDA LLC
+net.sketrom.tagline="Conexão sem limites."
+
+# ---------- TCP/IP OTIMIZAÇÃO ----------
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=524288,1048576,2097152,262144,524288,1048576
+net.tcp.buffersize.lte=262144,524288,1048576,262144,524288,1048576
+net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
+net.tcp.default_init_rwnd=60
+net.tcp.delack.default=1
+net.ipv4.tcp_congestion_control=bbr
+net.ipv4.tcp_fastopen=3
+
+# ---------- DNS & INTERNET ----------
+net.dns1=8.8.8.8
+net.dns2=8.8.4.4
+net.dns3=1.1.1.1
+net.dns4=1.0.0.1
+persist.net.dns.mode=performance
+persist.net.dns.cache_ttl=3600
+net.hostname=SketROM-Device
+
+# ---------- WIFI ----------
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=120
+persist.wifi.power_save=1
+persist.wifi.tx_power=maximum
+ro.wifi.channels=14
+wifi.country_code=BR
+ro.wifi.enable_softap=true
+persist.wifi.autoconnect=1
+
+# ---------- DADOS MÓVEIS ----------
+ro.telephony.default_network=9
+ro.ril.hsxpa=2
+ro.ril.gprsclass=12
+ro.ril.hsdpa.category=14
+ro.ril.hsupa.category=6
+persist.radio.apm_sim_not_pwdn=1
+persist.radio.add_power_save=0
+persist.radio.multisim.config=dsds
+persist.radio.data_ltd_sys_ind=1
+ro.telephony.call_ring.multiple=0
+
+# ---------- OTIMIZAÇÃO DE LATÊNCIA ----------
+persist.net.turbo_mode=1
+persist.net.low_latency=1
+persist.net.smart_ping=1
+persist.net.smart_buffer=1
+persist.net.ping_boost=1
+persist.net.priority.streaming=1
+persist.net.priority.gaming=1
+persist.net.priority.voice=1
+
+# ---------- TETHERING ----------
+net.tethering.noprovisioning=true
+net.tethering.supported=true
+persist.sys.tether_enable=1
+net.tethering.interface=wlan0
+net.tethering.speed_boost=1
+
+# ---------- REDE SEGURA ----------
+persist.net.encryption=1
+ro.secure.network=1
+net.firewall.enable=1
+net.firewall.smart_filter=1
+persist.net.protect.ports=80,443,8080
+persist.net.antimalware=1
+
+# ---------- FINAL ----------
+net.sketrom.note="Sistema de rede otimizado para baixa latência e alta estabilidade."
+# SketROM Network EngineX – velocidade e estabilidade em um só toque.
+# ============================================
